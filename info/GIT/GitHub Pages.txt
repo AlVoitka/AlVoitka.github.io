@@ -1,3 +1,6 @@
+1 курс урок 42 4 минута
+
+
 1. Внутри нужного репоза нажимаю Setting --> Pages
 2. None - выбираю нужную метку (master)
 3. Your site is ready to be published at https://alvoitka.github.io/portfolio_Voitka_Finish/ 
