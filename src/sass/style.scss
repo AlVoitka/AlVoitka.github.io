@@ -4,8 +4,8 @@
 
 @import 'base/variables';
 @import 'base/mixins';
-@import './base/title';
-@import './base/buttons';
+@import 'base/title';
+@import 'base/buttons';
 
 
 
@@ -35,21 +35,22 @@ a {
     background: url('/src/img/Desktop_bg2.jpg') no-repeat 100%/cover;
 }
 
-@import './blocks/promo';
-@import './blocks/promo-animation';
-@import './blocks/sidepanel';
-@import './blocks/hamburger';
-@import './blocks/about';
-@import './blocks/resume';
-@import './blocks/skills';
-@import './blocks/portfolio';
-@import './blocks/price';
-@import './blocks/contacts';
-@import './blocks/modal';
+@import 'blocks/promo';
+@import 'blocks/promo-animation';
+@import 'blocks/sidepanel';
+@import 'blocks/hamburger';
+@import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/price';
+@import 'blocks/contacts';
+@import 'blocks/modal';
+
+@import 'libs/animate';
+@import 'blocks/media';
 
 
-@import './blocks/media';
-@import './libs/animate';
 
 
 
