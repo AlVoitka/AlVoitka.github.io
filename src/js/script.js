@@ -60,32 +60,60 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
         modal = document.querySelector('.madal'),
         modalClose = document.querySelector('[data-close]'),
         form = document.querySelector('.contacts__form');
+
+
+        function fadeIn(el) {
+          let opacity = 0.01;
+          document.querySelector(el).style.display = "block";
+          let timer = setInterval(function() {
+            if(opacity >= 1) {
+              clearInterval(timer);
+            }
+            document.querySelector(el).style.opacity = opacity;
+            opacity += opacity * 0.1;
+          }, 5);
+        }
+  
+  
+        function fadeOut(el) {
+            let opacity = 1;
+            let timer = setInterval(function() {
+                if(opacity <= 0.1) {
+                clearInterval(timer);
+                document.querySelector(el).style.display = "none";
+                }
+                document.querySelector(el).style.opacity = opacity;
+                opacity -= opacity * 0.1;
+            }, 20);
+        }
       
 
       form.addEventListener('submit', (e) => {
         e.preventDefault();
         form.reset();
-        modalOverlay.style.display="block";         
-        modal.style.display="block"; 
-        
-     })
+        fadeIn('.overlay');
+      })
 
       modalClose.addEventListener('click', ()=> {
-        modalOverlay.style.display="none";          
-        modal.style.display="none";
+        fadeOut('.overlay');
       })
 
       modalOverlay.addEventListener('click', (e)=> {
         if(e.target === modalOverlay) {
-          modalOverlay.style.display="none"; 
+          fadeOut('.overlay');
         }
       })
 
 
 
 
-// new WOW().init();      
-      
+new WOW().init();  
+
+// modalOverlay.style.display="block";         
+        // modal.style.display="block"; 
+        // modalOverlay.style.display="none";          
+        // modal.style.display="none";
+      // modalOverlay.style.display="none"; 
       
     
       
