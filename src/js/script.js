@@ -107,7 +107,7 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
 
 
 
-new WOW().init();  
+// new WOW().init();  
 
 // modalOverlay.style.display="block";         
         // modal.style.display="block"; 
