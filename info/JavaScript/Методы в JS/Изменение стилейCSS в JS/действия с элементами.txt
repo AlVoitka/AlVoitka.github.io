@@ -32,6 +32,13 @@ xxx.forEach(item => {
 })
 
 
+modalOverlay.style.display="block";      --- показео    
+modal.style.display="block";             ---- скорыл
+modalOverlay.style.display="none";          
+modal.style.display="none";
+modalOverlay.style.display="none"; 
+
+
 
 Также существуе формат записы более удобный, если стилей нужно изменить много:
 

@@ -107,13 +107,7 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
 
 
 
-// new WOW().init();  
 
-// modalOverlay.style.display="block";         
-        // modal.style.display="block"; 
-        // modalOverlay.style.display="none";          
-        // modal.style.display="none";
-      // modalOverlay.style.display="none"; 
       
     
       
