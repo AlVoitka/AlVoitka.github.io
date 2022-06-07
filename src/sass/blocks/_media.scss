@@ -184,6 +184,9 @@
             font-size: 28px;
         }
     }
+    .btn {
+        height: 54px;
+    }
     .promo {
         &__title {
             line-height: 39px;
@@ -195,6 +198,9 @@
             width: 270px;
             justify-content: space-between;
             align-items: center;
+        }
+        &__link {
+            line-height: 2;
         }
        
     }
@@ -262,6 +268,9 @@
         width: 100%;
         padding: 0 10px;
     }
+    .btn {
+        height: 54px;
+    }
     .title {
         &_fz48 {
             font-size: 26px;
@@ -291,7 +300,7 @@
             align-items: center;
         }
         &__link {
-            display: none;
+            line-height: 2;
         }
     }
     .about {
