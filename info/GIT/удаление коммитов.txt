@@ -18,4 +18,3 @@ git reset index.hnml
 git checkout -- index.html
 
 3. Если уже создал коммит в нем что то жестко запорол, и хочу варнуться на один коммит назад:
-git reset --hard HEAD^1
