@@ -1,9 +1,4 @@
-:root {
-<<<<<<< HEAD
-  --animate-duration: 1s;
-  --animate-delay: 1s;
-  --animate-repeat: 1;
-}
+
 .animate__fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -92,11 +87,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-=======
-    --animate-duration: 1s;
-    --animate-delay: 1s;
-    --animate-repeat: 1;
-  }
+
 .animate__fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
@@ -185,4 +176,4 @@
       transform: translate3d(0, 0, 0);
     }
   }
->>>>>>> b80845c6ee257c588463ae7da1f32be835428184
+

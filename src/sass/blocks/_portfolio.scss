@@ -17,6 +17,7 @@
         margin-top: 60px;
         display: grid;
         grid-template-columns: 350px 350px;
+        gap: 20px;
         justify-content: space-around;
         .vertical {
             grid-row: 1 / 3;
